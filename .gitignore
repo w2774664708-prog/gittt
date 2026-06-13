@@ -1,0 +1,41 @@
+## OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+## Logs
+*.log
+logs/
+
+## Environment files
+.env
+.env.*
+!.env.example
+
+## Build / cache outputs
+dist/
+build/
+coverage/
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+## Archives / packaged artifacts
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
